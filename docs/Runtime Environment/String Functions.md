@@ -110,7 +110,7 @@ A Boolean.
 #### Example
 ```pluto title="Basic Usage"
 local s = "HELLOWORLD123"
-local r = string.isascii(r) --> true
+local r = string.isascii(s) --> true
 ```
 :::info
 This would exclude any multi-byte characters, like emojis.
